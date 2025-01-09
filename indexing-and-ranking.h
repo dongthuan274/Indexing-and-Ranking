@@ -1,0 +1,10 @@
+#pragma once
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <string>
+#include <sstream>
+#include <algorithm>
+#include "sort.h"
+#include "txt_reader.h"
+#include "display.h"

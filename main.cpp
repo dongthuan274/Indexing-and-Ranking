@@ -1,12 +1,4 @@
-#include <iostream>
-#include <fstream>
-#include <vector>
-#include <string>
-#include <sstream>
-#include <algorithm>
-#include "sort.h"
-#include "txt_reader.h"
-#include "display.h"
+#include "indexing-and-ranking.h"
 
 int main() {
     std::vector<int> o_arr, o_brr, o_crr;
