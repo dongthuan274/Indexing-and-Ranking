@@ -9,8 +9,8 @@ void displayWithIndexes(const std::vector<int>& arr);
 
 // Function để in Vector
 template <typename T>
-void printVector(const std::string& message, const std::vector<T>& vec) {
-    std::cout << message;
+void printVector(const std::string& text, const std::vector<T>& vec) {
+    std::cout << text;
     for (const auto& elem : vec) {
         std::cout << elem << " ";
     }
@@ -19,8 +19,8 @@ void printVector(const std::string& message, const std::vector<T>& vec) {
 
 // Function để in Vector được sắp xếp theo Index mới thêm vào
 template <typename T>
-void printSortedAccordingToIndexes(const std::string& message, const Indexx& indexx, const std::vector<T>& vec) {
-    std::cout << message;
+void printSortedAccordingToIndexes(const std::string& text, const Indexx& indexx, const std::vector<T>& vec) {
+    std::cout << text;
     for (size_t i = 0; i < vec.size(); ++i) {
         std::cout << indexx.el(vec, i) << " ";
     }
@@ -28,4 +28,4 @@ void printSortedAccordingToIndexes(const std::string& message, const Indexx& ind
 }
 
 // Function để in Rank của từng phần tử trong mảng
-void printRanks(const std::string& message, Indexx& indexx);
+void printRanks(const std::string& text, Indexx& indexx);

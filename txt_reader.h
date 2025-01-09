@@ -13,7 +13,6 @@ void readFileToVector(const std::string& filename, std::vector<T>& vec) {
         std::cerr << "Error opening file: " << filename << std::endl;
         return;
     }
-
     std::string line;
     while (std::getline(file, line)) {
         std::istringstream iss(line);
@@ -22,6 +21,5 @@ void readFileToVector(const std::string& filename, std::vector<T>& vec) {
             vec.push_back(num);
         }
     }
-
     file.close();
 }
